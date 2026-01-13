@@ -1,0 +1,65 @@
+{
+  "name": "ai-react-hooks",
+  "version": "1.0.6",
+  "description": "A powerful collection of React hooks for AI models including ChatGPT, Ollama, Groq, DeepSeek, Anthropic, Google Gemini, and more.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+     "build": "tsup src/index.js --format esm,cjs --dts",
+    "dev": "tsup src/index.js --watch --format esm,cjs --dts"
+  },
+  "keywords": [
+    "react",
+    "react hooks",
+    "hooks",
+    "ai",
+    "artificial intelligence",
+    "chatgpt",
+    "openai",
+    "gpt",
+    "llama",
+    "llama3",
+    "ollama",
+    "groq",
+    "deepseek",
+    "anthropic",
+    "claude",
+    "gemini",
+    "google gemini",
+    "ai assistant",
+    "ai utils",
+    "ai tools",
+    "ai react",
+    "react ai",
+    "machine learning",
+    "nlp",
+    "chatbot",
+    "image generation",
+    "speech to text"
+  ],
+  "author": "yared",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaredabebe/ai-react-hooks"
+  },
+  "homepage": "https://github.com/yaredabebe/ai-react-hooks#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
