@@ -223,7 +223,7 @@ const { ask } = useChatGPT({
 
 📄 License
 
-MIT © [Your Name]. See LICENSE for details.
+MIT © Yared Abebe. See LICENSE for details.
 <div align="center">
 Ready to build AI-powered React apps?
 bash

@@ -1,6 +1,6 @@
 {
   "name": "ai-react-hooks",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A powerful collection of React hooks for AI models including ChatGPT, Ollama, Groq, DeepSeek, Anthropic, Google Gemini, and more.",
   "main": "dist/index.js",
   "module": "dist/index.js",
